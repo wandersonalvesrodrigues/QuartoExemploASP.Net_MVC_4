@@ -1,0 +1,83 @@
+﻿@model CadeMeuMedicoMVC.Models.MedicoViewModel
+
+@{
+    ViewBag.Title = "Adicionar Médico";
+}
+
+<h2>Adicionar Médico</h2>
+
+<div>
+    <fieldset>
+        <legend>Dados dos Medico</legend>
+        <form action="~/Medico/Editar" method="post">
+            <!-- @Html.ValidationSummary(false, "", new { @class = "text-danger" }) -->
+            @Html.HiddenFor(model=>model.IDMedico)
+            <div>
+                <label for="crm">CRM</label>
+            </div>
+            <div>
+                @Html.EditorFor(model => model.CRM)
+                @Html.ValidationMessageFor(model => model.CRM)
+            </div>
+
+            <div>
+                <label for="nome">Nome</label>
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Nome)
+                @Html.ValidationMessageFor(model => model.Nome)
+            </div>
+
+            <div>
+                <label for="especialidade">Especialidade</label>
+            </div>
+            <div>
+                @Html.DropDownList("IDEspecialidade", String.Empty).
+                @Html.ValidationMessageFor(model => model.IDEspecialidade)
+            </div>
+
+            <div>
+                <label for="endereco">Endereço</label>
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Endereco)
+                @Html.ValidationMessageFor(model => model.Endereco)
+            </div>
+
+            <div>
+                <label for="bairro">Bairro</label>
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Bairro)
+                @Html.ValidationMessageFor(model => model.Bairro)
+            </div>
+
+            <div>
+                <label for="cidade">Cidade</label>
+            </div>
+            <div>
+                @Html.DropDownList("IDCidade", String.Empty),
+                @Html.ValidationMessageFor(model => model.IDCidade)
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+            </div>
+            <div>
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email)
+            </div>
+
+            <div>
+                <label for="websiteblog">Blog</label>
+            </div>
+            <div>
+                @Html.EditorFor(model => model.WebsiteBlog)
+                @Html.ValidationMessageFor(model => model.WebsiteBlog)
+            </div>
+
+            <br />
+            <input type="submit" value="Atualizar" />
+        </form>
+    </fieldset>
+</div>

@@ -1,0 +1,7 @@
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\bin\Debug\Dominio.dll
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\bin\Debug\Dominio.pdb
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\bin\Debug\DataAcessADO.dll
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\bin\Debug\DataAcessADO.pdb
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\obj\Debug\Dominio.dll
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\obj\Debug\Dominio.pdb

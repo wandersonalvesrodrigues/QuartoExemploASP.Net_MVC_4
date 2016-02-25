@@ -1,0 +1,4 @@
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\DataAcessADO\bin\Debug\DataAcessADO.dll
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\DataAcessADO\bin\Debug\DataAcessADO.pdb
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\DataAcessADO\obj\Debug\DataAcessADO.dll
+c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\DataAcessADO\obj\Debug\DataAcessADO.pdb

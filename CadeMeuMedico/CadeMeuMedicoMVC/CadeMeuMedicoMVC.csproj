@@ -119,7 +119,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Business\ModecoBL.cs" />
+    <Compile Include="Models\Business\MedicoBL.cs" />
     <Compile Include="Models\Business\UsuarioBL.cs" />
     <Compile Include="Models\DTO\MedicoDTO.cs" />
     <Compile Include="Models\DTO\UsuarioDTO.cs" />

@@ -2,3 +2,7 @@ c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\DataAcessADO\b
 c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\DataAcessADO\bin\Debug\DataAcessADO.pdb
 c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\DataAcessADO\obj\Debug\DataAcessADO.dll
 c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\DataAcessADO\obj\Debug\DataAcessADO.pdb
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\DataAcessADO\bin\Debug\DataAcessADO.dll
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\DataAcessADO\bin\Debug\DataAcessADO.pdb
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\DataAcessADO\obj\Debug\DataAcessADO.dll
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\DataAcessADO\obj\Debug\DataAcessADO.pdb

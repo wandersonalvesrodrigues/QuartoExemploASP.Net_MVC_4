@@ -5,3 +5,10 @@ c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\bin\De
 c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\bin\Debug\DataAcessADO.pdb
 c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\obj\Debug\Dominio.dll
 c:\users\user\documents\visual studio 2013\Projects\CadeMeuMedico\Dominio\obj\Debug\Dominio.pdb
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\Dominio\bin\Debug\Dominio.dll
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\Dominio\bin\Debug\Dominio.pdb
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\Dominio\bin\Debug\DataAcessADO.dll
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\Dominio\bin\Debug\DataAcessADO.pdb
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\Dominio\obj\Debug\Dominio.dll
+C:\Users\User\Desktop\Projetos ASP.Net MVC\QuartoExemploASP.Net_MVC_4\CadeMeuMedico\Dominio\obj\Debug\Dominio.pdb

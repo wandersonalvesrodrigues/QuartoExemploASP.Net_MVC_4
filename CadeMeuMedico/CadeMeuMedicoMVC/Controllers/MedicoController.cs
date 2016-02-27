@@ -9,16 +9,16 @@ namespace CadeMeuMedicoMVC.Controllers
     {
         public ActionResult Index()
         {
-            var medicos = ModecoBL.BuscaMedicos();
+            var medicos = MedicoBL.BuscaMedicos();
             return View(medicos);
         }
 
         public ActionResult Adicionar()
         {
             //Cidades
-            var allCidades = ModecoBL.BuscaCidades();
+            var allCidades = MedicoBL.BuscaCidades();
             //Especialidades
-            var allEspecialidades = ModecoBL.BuscaEspecialidades();
+            var allEspecialidades = MedicoBL.BuscaEspecialidades();
 
             //No formulário de cadastro do Médicos,essas informações serão apresentadas em um ComboBox (ou Dropdownlist).No caso de HTML, 
             //o ComboBox é representado pelo elemento select.
@@ -34,14 +34,14 @@ namespace CadeMeuMedicoMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                ModecoBL.InserirMedico(medicoViewModel);
+                MedicoBL.InserirMedico(medicoViewModel);
                 return RedirectToAction("Index");
             }
 
             //Cidades
-            var allCidades = ModecoBL.BuscaCidades();
+            var allCidades = MedicoBL.BuscaCidades();
             //Especialidades
-            var allEspecialidades = ModecoBL.BuscaEspecialidades();
+            var allEspecialidades = MedicoBL.BuscaEspecialidades();
 
             ViewBag.IDCidade = new SelectList(allCidades, "IDCidade", "Nome", medicoViewModel.IDCidade);
             ViewBag.IDEspecialidade = new SelectList(allEspecialidades, "IDEspecialidade", "Nome", medicoViewModel.IDEspecialidade);
@@ -51,12 +51,12 @@ namespace CadeMeuMedicoMVC.Controllers
 
         public ActionResult Editar(int id)
         {
-            var medicoViewModel = ModecoBL.BuscaMedicoViewModelPorId(id);
+            var medicoViewModel = MedicoBL.BuscaMedicoViewModelPorId(id);
 
             //Cidades
-            var allCidades = ModecoBL.BuscaCidades();
+            var allCidades = MedicoBL.BuscaCidades();
             //Especialidades
-            var allEspecialidades = ModecoBL.BuscaEspecialidades();
+            var allEspecialidades = MedicoBL.BuscaEspecialidades();
 
             ViewBag.IDCidade = new SelectList(allCidades, "IDCidade", "Nome", medicoViewModel.IDCidade);
             ViewBag.IDEspecialidade = new SelectList(allEspecialidades, "IDEspecialidade", "Nome", medicoViewModel.IDEspecialidade);
@@ -69,14 +69,14 @@ namespace CadeMeuMedicoMVC.Controllers
         {
             if (ModelState.IsValid)
             {
-                ModecoBL.AtualizaMedico(medicoViewModel);
+                MedicoBL.AtualizaMedico(medicoViewModel);
                 return RedirectToAction("Index");
             }
 
             //Cidades
-            var allCidades = ModecoBL.BuscaCidades();
+            var allCidades = MedicoBL.BuscaCidades();
             //Especialidades
-            var allEspecialidades = ModecoBL.BuscaEspecialidades();
+            var allEspecialidades = MedicoBL.BuscaEspecialidades();
 
             ViewBag.IDCidade = new SelectList(allCidades, "IDCidade", "Nome", medicoViewModel.IDCidade);
             ViewBag.IDEspecialidade = new SelectList(allEspecialidades, "IDEspecialidade", "Nome", medicoViewModel.IDEspecialidade);
@@ -86,8 +86,8 @@ namespace CadeMeuMedicoMVC.Controllers
 
         public ActionResult Excluir(int id)
         {
-            var medico = ModecoBL.BuscaMedicoPorId(id);
-            ModecoBL.DeletaMedico(id);
+            var medico = MedicoBL.BuscaMedicoPorId(id);
+            MedicoBL.DeletaMedico(id);
             return RedirectToAction("Index");
         }
     }

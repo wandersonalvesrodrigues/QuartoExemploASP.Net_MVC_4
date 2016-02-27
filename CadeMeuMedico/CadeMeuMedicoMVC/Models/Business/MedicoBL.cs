@@ -8,7 +8,7 @@ using System.Web;
 
 namespace CadeMeuMedicoMVC.Models.Business
 {
-    public class ModecoBL
+    public class MedicoBL
     {
         public static void InserirMedico(MedicoViewModel medicoViewModel)
         {
